@@ -1,0 +1,29 @@
+# Installed dependencies and generated builds
+frontend/node_modules/
+frontend/dist/
+backend/target/
+backend/src/main/resources/static/
+
+# Runtime data and private configuration
+.data/
+**/.data/
+.runtime/
+data/
+uploads/
+.env
+.env.*
+!.env.example
+*.log
+*.pid
+*.tsbuildinfo
+
+# Local editors and operating systems
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Local verification outputs
+artifacts/
+test-results/
